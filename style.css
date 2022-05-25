@@ -1,0 +1,254 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family: 'Open Sans', sans-serif!important;
+}
+.spacer{
+	clear:both; 
+	font-size:0; 
+	line-height:0;
+}
+.fotter {
+    background: #2f2f2f;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.fotter > p {
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 13px;
+}
+.navbar-inverse {
+	background-color: #2f2f2f;
+	border-color: #2f2f2f;
+	border-radius: 0px;
+	margin-bottom: 0px;
+}
+.nav.navbar-nav > li > a {
+	color: #fff;
+	font-size: 13px;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+.nav.navbar-nav.navbar-right > li:nth-child(1) {
+	background: red;
+}
+.centro>h1 {
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #00c0ff;
+}
+.centro>h3 {
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.nav.navbar-nav.navbar-right > li:nth-child(2) {
+    background: #0cce0c;
+}
+.banner{padding:0px;}
+.banner > img {
+	width: 100%;
+}
+.leave {
+    background: url(images/1.jpg);
+    background-size: 100%;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    text-align: center;
+    float: left;
+    width: 100%;
+}
+.leave>#find>h2 {
+    color: #00c0ff;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.leave>#find>form>table.black {
+    margin: 0px auto;
+    padding-top: 20px;
+}
+.leave>#find>form>table.black>tbody{}
+.leave>#find>h3 {
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 22px;
+	margin-bottom: 20px;
+}
+#find>h2 {
+    color: #00c0ff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.leave>#find>form>table.black>tbody>tr>td {
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+	color: #000;
+}
+.leave>#find>form>table.black>tbody {
+    background: rgba(255,255,255,0.7);
+}
+#find>h3 {
+    font-size: 22px;
+    color: #1a1d1f;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+.leave>#find>form>table.black>tbody>tr>td>select {
+    width: 90%!important;
+    background: none;
+    border: 2px solid #000;
+    color: #000;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+}
+.leave>#find>form>table.black>tbody>tr>td>input[type="text"] {
+    background: none;
+    box-shadow: none;
+    border: 2px solid;
+    width: 90%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.leave>#find>form>table.black>tbody>tr>td>input[type="password"] {
+    background: none;
+    box-shadow: none;
+    border: 2px solid;
+    width: 90%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.leave>#find>form>table.black>tbody>tr>td>textarea{ background: none;
+    box-shadow: none;
+    border: 2px solid;
+    width: 90%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;}
+.leave>#find>form>table.black>tbody>tr>td>input[type="submit"] {
+    float: left;
+    margin-left: 15px;
+    background: no-repeat;
+    border: 2px solid;
+    color: #000;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.centro {
+    background: #f7f7f7;
+    border-top: 5px solid #00c0ff;
+    border-bottom: 5px solid #00c0ff;
+	    padding-bottom: 15px;
+}
+.content_bottom {
+border-top: 5px solid #00c0ff;
+    border-bottom: 5px solid #00c0ff; 
+ background: #f7f7f7;
+}
+.thumbo {
+    float: left;
+    width: 48%;
+}
+.thumboa {
+    float: left;
+    width: 50%;
+}
+.thumboa>tbody {
+    background: #00c0ff;
+}
+.thumboa>tbody>tr>td {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.thumboa>tbody>tr>td>select#select {
+    background: none;
+    border: 2px solid #fff;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    width: 95%;
+	color: #000;
+}
+.thumboa>tbody>tr>td>input#button {
+    float: left;
+    width: 40%;
+    background: none;
+    border: 2px solid;
+    color: #fff;
+}
+.features>h4 {
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.features>h3 {
+    padding-left: 0px!important;
+    color: #00c0ff;
+    font-weight: 600;
+}
+.addo>p {
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-left: 15px;
+}
+.addo>p:nth-child(1) {
+    margin-top: 40px;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #00c0ff;
+}
+.navbar-nav {
+    float: left;
+    margin: 0;
+    margin-left: 80px;
+}
+.sky > input {
+	background: #fff;
+	color: #00c0ff;
+	box-shadow: none;
+	letter-spacing: 1px;
+	margin-right: 10px;
+	border: 2px solid #fff;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.thumboa {
+	float: left !important;
+	width: 100%;
+}
+input, select, textarea {
+
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: black;
+}
